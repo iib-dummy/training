@@ -1,7 +1,8 @@
 import { Box, Divider, TextField, Typography } from '@material-ui/core'
 import React from 'react'
 
-import vicropht from './vicropht/vicropht'
+import Fhi from './fhi/Fhi'
+import Vicropht from './vicropht/vicropht'
 
 const App = () => (
     <Box margin={4}>
@@ -10,6 +11,8 @@ const App = () => (
         </Typography>
         <Divider />
         <TextField>Hier wird der Text Field benutzt</TextField>
+        <Fhi />
+        <Vicropht />
     </Box>
 )
 
