@@ -2,6 +2,7 @@ import { Box, Divider, Typography } from '@material-ui/core'
 import React from 'react'
 
 import Fhi from './fhi/Fhi'
+import TeamDone from './TeamDone/TeamDone'
 
 const App = () => (
     <Box margin={4}>
@@ -11,6 +12,7 @@ const App = () => (
         <Divider />
         {/* ab hier bitte eure "Einstiegskomponente" einfügen, bspw.: */}
         <Fhi />
+        <TeamDone />
     </Box>
 )
 
