@@ -1,7 +1,7 @@
-import { Box, Divider, Typography } from '@material-ui/core'
+import { Box, Divider, TextField, Typography } from '@material-ui/core'
 import React from 'react'
 
-import Fhi from './fhi/Fhi'
+import vicropht from './vicropht/vicropht'
 
 const App = () => (
     <Box margin={4}>
@@ -9,8 +9,7 @@ const App = () => (
             heute ist der {new Date().toLocaleDateString()} - viel Spaß
         </Typography>
         <Divider />
-        {/* ab hier bitte eure "Einstiegskomponente" einfügen, bspw.: */}
-        <Fhi />
+        <TextField>Hier wird der Text Field benutzt</TextField>
     </Box>
 )
 
