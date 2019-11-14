@@ -2,6 +2,7 @@ import { Box, Divider, Typography } from '@material-ui/core'
 import React from 'react'
 
 import Fhi from './fhi/Fhi'
+import TeamDone from './TeamDone/TeamDone'
 import Vicropht from './vicropht/vicropht'
 import Kakerlake from './Kakerlake/Kakerlake'
 import Wiju1013wj from './wiju1013wj/Wiju1013wj'
@@ -14,6 +15,7 @@ const App = () => (
         </Typography>
         <Divider />
         <Fhi />
+        <TeamDone />
         <Vicropht />
         <Kakerlake />
         <Wiju1013wj />
