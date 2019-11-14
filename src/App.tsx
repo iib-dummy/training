@@ -2,6 +2,7 @@ import { Box, Divider, Typography } from '@material-ui/core'
 import React from 'react'
 
 import Fhi from './fhi/Fhi'
+import Vicropht from './vicropht/vicropht'
 import Kakerlake from './Kakerlake/Kakerlake'
 import Wiju1013wj from './wiju1013wj/Wiju1013wj'
 import Ts from './teamsalbei/Ts'
@@ -12,8 +13,8 @@ const App = () => (
             Heute ist der {new Date().toLocaleDateString()} - Viel Spaß
         </Typography>
         <Divider />
-        {/* ab hier bitte eure "Einstiegskomponente" einfügen, bspw.: */}
         <Fhi />
+        <Vicropht />
         <Kakerlake />
         <Wiju1013wj />
         <Ts />
